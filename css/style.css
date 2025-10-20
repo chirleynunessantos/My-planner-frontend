@@ -1,0 +1,111 @@
+* {}
+
+body {
+    /*   background-image:linear-gradient(to top,white, #DCDDE3);*/
+    background-color: #DCDDE3;
+    font-family: 'Calibri Bold font';
+    ;
+}
+
+header {
+
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    ;
+    border-top-right-radius: 10px;
+
+}
+
+header>img {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+main {
+
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    ;
+    border-bottom-right-radius: 10px;
+}
+
+main input {
+    border-radius: 5px;
+    ;
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    ;
+    margin-left: 90px;
+    border-color: rgba(0, 0, 0, 0.144);
+}
+
+main button {
+     border-color: rgba(0, 0, 0, 0.144);
+    border-radius: 5px; 
+    color:white;
+    font-weight: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    background-color: rgb(55, 85, 135)
+}
+
+#login_google{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;    
+    margin:auto;
+    padding: 5px;
+    color:rgba(0, 0, 0, 0.582);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    text-align: center;
+     align-items: center;
+    
+}
+#login_google a{
+        text-decoration: none;  
+}
+#google{
+   color: rgba(4, 0, 255, 0.589);
+   margin-left: 60px;
+
+}
+#login_google img{
+    width: 30px;
+    margin-left:-50px;
+
+}
+.divisor-ou {
+    /* 1. Configuração do contêiner */
+    display: flex; /* Habilita o Flexbox */
+    align-items: center; /* Alinha o texto no centro vertical da linha */
+    margin: 20px 0; /* Espaçamento acima e abaixo */
+    
+    /* 2. Estilo do texto (opcional) */
+    color: #888;
+    font-size: 15px;
+}
+.divisor-ou::before,
+.divisor-ou::after {
+    content: ''; 
+    flex-grow:1;
+    height: 1px;
+    background-color: #ccc;
+     margin: 0 8px;
+}
+
