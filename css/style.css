@@ -1,4 +1,6 @@
-* {}
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Creepster&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Parisienne&family=Parkinsans:wght@300..800&family=Passion+One:wght@400;700;900&family=Special+Gothic:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Creepster&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Parisienne&family=Parkinsans:wght@300..800&family=Passion+One:wght@400;700;900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Special+Gothic:wght@400..700&display=swap');
 
 body {
     /*   background-image:linear-gradient(to top,white, #DCDDE3);*/
@@ -51,9 +53,9 @@ main input {
 }
 
 main button {
-     border-color: rgba(0, 0, 0, 0.144);
-    border-radius: 5px; 
-    color:white;
+    border-color: rgba(0, 0, 0, 0.144);
+    border-radius: 5px;
+    color: white;
     font-weight: 10px;
     font-size: 20px;
     height: 40px;
@@ -62,50 +64,100 @@ main button {
     margin-top: 5px;
     margin-bottom: 20px;
     margin-left: 90px;
-    background-color: rgb(55, 85, 135)
+    background-color: rgb(55, 85, 135);
+    font-family: 'Plus Jakarta Sans';
+    ;
 }
 
-#login_google{
+#login_google {
     width: 200px;
     height: 50px;
-    border-radius: 10px;    
-    margin:auto;
+    border-radius: 10px;
+    margin: auto;
     padding: 5px;
-    color:rgba(0, 0, 0, 0.582);
+    color: rgba(0, 0, 0, 0.582);
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
     text-align: center;
-     align-items: center;
-    
-}
-#login_google a{
-        text-decoration: none;  
-}
-#google{
-   color: rgba(4, 0, 255, 0.589);
-   margin-left: 60px;
+    align-items: center;
 
 }
-#login_google img{
+
+#login_google a {
+    text-decoration: none;
+}
+
+#google {
+    color: rgba(4, 0, 255, 0.589);
+    margin-left: 60px;
+
+}
+
+#login_google img {
     width: 30px;
-    margin-left:-50px;
+    margin-left: -50px;
 
 }
+
 .divisor-ou {
     /* 1. Configuração do contêiner */
-    display: flex; /* Habilita o Flexbox */
-    align-items: center; /* Alinha o texto no centro vertical da linha */
-    margin: 20px 0; /* Espaçamento acima e abaixo */
-    
+    display: flex;
+    /* Habilita o Flexbox */
+    align-items: center;
+    /* Alinha o texto no centro vertical da linha */
+    margin: 20px 0;
+    /* Espaçamento acima e abaixo */
+
     /* 2. Estilo do texto (opcional) */
     color: #888;
     font-size: 15px;
 }
+
 .divisor-ou::before,
 .divisor-ou::after {
-    content: ''; 
-    flex-grow:1;
+    content: '';
+    flex-grow: 1;
     height: 1px;
     background-color: #ccc;
-     margin: 0 8px;
+    margin: 0 5px;
 }
 
+h1 {
+    color: rgb(55, 85, 135);
+    text-align: center;
+    padding: 8px;
+    margin-top: 5x;
+    font-family: 'Plus Jakarta Sans';
+    margin: auto;
+}
+
+input#check {
+    width: 15px;
+}
+
+span#conf-senha {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: 'Plus Jakarta Sans';
+    color: rgb(55, 85, 135);
+    text-decoration: none;
+}
+
+
+a#esqueceu {
+    margin-left: 70px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(55, 85, 135);
+}
+
+div#cadastre  {
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+div#cadastre > a {
+    text-decoration: none;
+    color: rgb(55, 85, 135);
+}
